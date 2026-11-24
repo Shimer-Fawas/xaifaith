@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "xaifaith: per-molecule faithfulness scoring for molecular property prediction"
+message: "If you use this software, please cite it using these metadata."
+type: software
+authors:
+  - family-names: "Shimer"
+    given-names: "M F M"
+    affiliation: "Asia Pacific University"
+license: MIT
+repository-code: "https://github.com/SLRC-CEO/xaifaith"

@@ -1,0 +1,127 @@
+{
+  "within_explainer": [
+    {
+      "spearman": 0.7774390243187126,
+      "spearman_std": 0.019692407230599257,
+      "ungated_mean": 0.11349587803827917,
+      "gated_mean": 0.45017443977838223,
+      "oracle_mean": 0.5407339367216389,
+      "fraction_of_oracle_gain": 0.7878684589579722,
+      "n_rows": 9529,
+      "explainer": "gnn_explainer"
+    },
+    {
+      "spearman": 0.6947110071398648,
+      "spearman_std": 0.029581157535949344,
+      "ungated_mean": 0.1655885309586707,
+      "gated_mean": 0.3913960416560722,
+      "oracle_mean": 0.48203059811467563,
+      "fraction_of_oracle_gain": 0.7130700987923551,
+      "n_rows": 7148,
+      "explainer": "grad_cam"
+    },
+    {
+      "spearman": 0.7697800916913932,
+      "spearman_std": 0.02000842298099944,
+      "ungated_mean": 0.5297688210834773,
+      "gated_mean": 0.7595722834143184,
+      "oracle_mean": 0.8253920285518342,
+      "fraction_of_oracle_gain": 0.776993205161334,
+      "n_rows": 9529,
+      "explainer": "gradient_input"
+    },
+    {
+      "spearman": 0.7248116986773241,
+      "spearman_std": 0.03399214778400517,
+      "ungated_mean": 0.8007439419626825,
+      "gated_mean": 0.9155883100894882,
+      "oracle_mean": 0.9463250562817137,
+      "fraction_of_oracle_gain": 0.7881647018098856,
+      "n_rows": 9529,
+      "explainer": "integrated_gradients"
+    },
+    {
+      "spearman": -0.006206073628742105,
+      "spearman_std": 0.02370099002950128,
+      "ungated_mean": -0.01256110946183794,
+      "gated_mean": -0.011704713509276097,
+      "oracle_mean": 0.223450187436702,
+      "fraction_of_oracle_gain": 0.00347099897721037,
+      "n_rows": 9529,
+      "explainer": "random"
+    },
+    {
+      "spearman": 0.659064545341392,
+      "spearman_std": 0.027169562424714952,
+      "ungated_mean": -0.11629710354462733,
+      "gated_mean": 0.12761976304293815,
+      "oracle_mean": 0.2476283522158027,
+      "fraction_of_oracle_gain": 0.6697462205789951,
+      "n_rows": 9529,
+      "explainer": "saliency"
+    },
+    {
+      "spearman": 0.7903721974587653,
+      "spearman_std": 0.022057280872489815,
+      "ungated_mean": 0.5806527936071659,
+      "gated_mean": 0.8039159895771248,
+      "oracle_mean": 0.858150625229339,
+      "fraction_of_oracle_gain": 0.8040345661708116,
+      "n_rows": 9529,
+      "explainer": "smoothgrad"
+    }
+  ],
+  "pooled_without_identity": {
+    "spearman": 0.7900079963991601,
+    "spearman_std": 0.015615226963109756,
+    "ungated_mean": 0.29925403326452493,
+    "gated_mean": 0.6343696370476579,
+    "oracle_mean": 0.7192223086883173,
+    "fraction_of_oracle_gain": 0.7976766462049448,
+    "n_rows": 64322
+  },
+  "gating_composition": [
+    {
+      "explainer": "integrated_gradients",
+      "share_before": 0.14814814814814814,
+      "share_after": 0.2962962962962963,
+      "mean_F_in_pool": 0.8117588881670806
+    },
+    {
+      "explainer": "smoothgrad",
+      "share_before": 0.14814814814814814,
+      "share_after": 0.2648615001556178,
+      "mean_F_in_pool": 0.5988969021789696
+    },
+    {
+      "explainer": "gradient_input",
+      "share_before": 0.14814814814814814,
+      "share_after": 0.25583566760037346,
+      "mean_F_in_pool": 0.5392995882245945
+    },
+    {
+      "explainer": "gnn_explainer",
+      "share_before": 0.14814814814814814,
+      "share_after": 0.09010270774976657,
+      "mean_F_in_pool": 0.09252902057695939
+    },
+    {
+      "explainer": "grad_cam",
+      "share_before": 0.1111111111111111,
+      "share_after": 0.07874260815437285,
+      "mean_F_in_pool": 0.19074043693612233
+    },
+    {
+      "explainer": "saliency",
+      "share_before": 0.14814814814814814,
+      "share_after": 0.014161220043572984,
+      "mean_F_in_pool": -0.12628628357456373
+    },
+    {
+      "explainer": "random",
+      "share_before": 0.14814814814814814,
+      "share_after": 0.0,
+      "mean_F_in_pool": -0.015745496118091264
+    }
+  ]
+}
