@@ -1,0 +1,424 @@
+{
+  "cells": [
+    {
+      "spearman": 0.781730978022831,
+      "spearman_std": 0.032946166356259986,
+      "ungated_mean": 0.1509184262450681,
+      "gated_mean": 0.5134622515645051,
+      "fraction_of_oracle_gain": 0.8148785613100149,
+      "n_rows": 2381,
+      "n_features": 35,
+      "explainer": "gnn_explainer",
+      "architecture": "attentivefp"
+    },
+    {
+      "spearman": 0.7864819674697718,
+      "spearman_std": 0.040099380571863165,
+      "ungated_mean": 0.22972841963600404,
+      "gated_mean": 0.5482234037176317,
+      "fraction_of_oracle_gain": 0.7939733687921453,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "gnn_explainer",
+      "architecture": "gat"
+    },
+    {
+      "spearman": 0.7699650906669044,
+      "spearman_std": 0.04048980425436285,
+      "ungated_mean": -0.03747002586258489,
+      "gated_mean": 0.2750995422002102,
+      "fraction_of_oracle_gain": 0.7847837216665198,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "gnn_explainer",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.719772877403511,
+      "spearman_std": 0.011253010088142936,
+      "ungated_mean": 0.11100031003377205,
+      "gated_mean": 0.41828373139957414,
+      "fraction_of_oracle_gain": 0.7490160430480172,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "gnn_explainer",
+      "architecture": "gin"
+    },
+    {
+      "spearman": 0.6893037639930758,
+      "spearman_std": 0.03694400890629154,
+      "ungated_mean": 0.18176451624455248,
+      "gated_mean": 0.3787604945741115,
+      "fraction_of_oracle_gain": 0.7148883866752549,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "grad_cam",
+      "architecture": "gat"
+    },
+    {
+      "spearman": 0.7596173401772595,
+      "spearman_std": 0.034758223208940474,
+      "ungated_mean": 0.09293310363361404,
+      "gated_mean": 0.3522444809121462,
+      "fraction_of_oracle_gain": 0.8045416414816591,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "grad_cam",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.5796895786439877,
+      "spearman_std": 0.08435902520480125,
+      "ungated_mean": 0.22205490430806724,
+      "gated_mean": 0.42894795210182945,
+      "fraction_of_oracle_gain": 0.6096885496790676,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "grad_cam",
+      "architecture": "gin"
+    },
+    {
+      "spearman": 0.6263243549335541,
+      "spearman_std": 0.06014172052585098,
+      "ungated_mean": 0.7918397549101185,
+      "gated_mean": 0.896407940429981,
+      "fraction_of_oracle_gain": 0.7132346650802932,
+      "n_rows": 2381,
+      "n_features": 35,
+      "explainer": "gradient_input",
+      "architecture": "attentivefp"
+    },
+    {
+      "spearman": 0.7664095658675042,
+      "spearman_std": 0.04156899915702301,
+      "ungated_mean": 0.5087729549085306,
+      "gated_mean": 0.743834656721177,
+      "fraction_of_oracle_gain": 0.7887519444360014,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "gradient_input",
+      "architecture": "gat"
+    },
+    {
+      "spearman": 0.7102281915022228,
+      "spearman_std": 0.030790087462174404,
+      "ungated_mean": 0.40347937251939403,
+      "gated_mean": 0.6427452111043491,
+      "fraction_of_oracle_gain": 0.7573038597885864,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "gradient_input",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.5689084565492675,
+      "spearman_std": 0.02672579696430665,
+      "ungated_mean": 0.41516081705885916,
+      "gated_mean": 0.5684085753507655,
+      "fraction_of_oracle_gain": 0.5654829976802955,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "gradient_input",
+      "architecture": "gin"
+    },
+    {
+      "spearman": 0.6507259462414845,
+      "spearman_std": 0.04940207230480952,
+      "ungated_mean": 0.8747960988701438,
+      "gated_mean": 0.9441944337241477,
+      "fraction_of_oracle_gain": 0.7565390661971382,
+      "n_rows": 2381,
+      "n_features": 35,
+      "explainer": "integrated_gradients",
+      "architecture": "attentivefp"
+    },
+    {
+      "spearman": 0.7129392087941098,
+      "spearman_std": 0.04626059484600204,
+      "ungated_mean": 0.8021374345131151,
+      "gated_mean": 0.9285176918317308,
+      "fraction_of_oracle_gain": 0.814048738429433,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "integrated_gradients",
+      "architecture": "gat"
+    },
+    {
+      "spearman": 0.7241481813958717,
+      "spearman_std": 0.02888533720263397,
+      "ungated_mean": 0.8230555482049983,
+      "gated_mean": 0.9106903198919205,
+      "fraction_of_oracle_gain": 0.7812502374894337,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "integrated_gradients",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.7016826029468695,
+      "spearman_std": 0.029865988867914684,
+      "ungated_mean": 0.7030546725075739,
+      "gated_mean": 0.8391606793233988,
+      "fraction_of_oracle_gain": 0.7125604328818115,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "integrated_gradients",
+      "architecture": "gin"
+    },
+    {
+      "spearman": 0.03853285305513192,
+      "spearman_std": 0.012465708564863594,
+      "ungated_mean": -0.010915573230301772,
+      "gated_mean": -0.004222169679054482,
+      "fraction_of_oracle_gain": 0.027240560489654612,
+      "n_rows": 2381,
+      "n_features": 35,
+      "explainer": "random",
+      "architecture": "attentivefp"
+    },
+    {
+      "spearman": 0.02015391450076874,
+      "spearman_std": 0.034302600478137844,
+      "ungated_mean": -0.010907271908828935,
+      "gated_mean": -0.011020759461896491,
+      "fraction_of_oracle_gain": -0.0005093985294010242,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "random",
+      "architecture": "gat"
+    },
+    {
+      "spearman": -0.03402751751970603,
+      "spearman_std": 0.03835978309618831,
+      "ungated_mean": -0.016872706528608443,
+      "gated_mean": -0.02522761910233575,
+      "fraction_of_oracle_gain": -0.03660009927834752,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "random",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.02734129343133413,
+      "spearman_std": 0.03790393097742144,
+      "ungated_mean": -0.011526731547241613,
+      "gated_mean": -0.003920352185247845,
+      "fraction_of_oracle_gain": 0.03232450453739057,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "random",
+      "architecture": "gin"
+    },
+    {
+      "spearman": 0.6880780712083323,
+      "spearman_std": 0.03096648591913596,
+      "ungated_mean": -0.2703919982623819,
+      "gated_mean": -0.009770099613559244,
+      "fraction_of_oracle_gain": 0.7208898775929906,
+      "n_rows": 2381,
+      "n_features": 35,
+      "explainer": "saliency",
+      "architecture": "attentivefp"
+    },
+    {
+      "spearman": 0.6348154873874677,
+      "spearman_std": 0.031180710957114537,
+      "ungated_mean": -0.07265820247983203,
+      "gated_mean": 0.1530168652129941,
+      "fraction_of_oracle_gain": 0.6537276254607336,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "saliency",
+      "architecture": "gat"
+    },
+    {
+      "spearman": 0.6279666811560118,
+      "spearman_std": 0.05313752500082595,
+      "ungated_mean": -0.10155851509241214,
+      "gated_mean": 0.11474397858372098,
+      "fraction_of_oracle_gain": 0.6373591983141853,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "saliency",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.5191572836473781,
+      "spearman_std": 0.030199334969187534,
+      "ungated_mean": -0.020634204615452862,
+      "gated_mean": 0.16009789206948583,
+      "fraction_of_oracle_gain": 0.5316512511237702,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "saliency",
+      "architecture": "gin"
+    },
+    {
+      "spearman": 0.6367530406485038,
+      "spearman_std": 0.029672651205563373,
+      "ungated_mean": 0.8243911697798756,
+      "gated_mean": 0.9131896335658165,
+      "fraction_of_oracle_gain": 0.7129920171201121,
+      "n_rows": 2381,
+      "n_features": 35,
+      "explainer": "smoothgrad",
+      "architecture": "attentivefp"
+    },
+    {
+      "spearman": 0.7981032313081421,
+      "spearman_std": 0.026481138961927036,
+      "ungated_mean": 0.5377921340945487,
+      "gated_mean": 0.7776650062662016,
+      "fraction_of_oracle_gain": 0.829933342189699,
+      "n_rows": 2382,
+      "n_features": 35,
+      "explainer": "smoothgrad",
+      "architecture": "gat"
+    },
+    {
+      "spearman": 0.7750450896604969,
+      "spearman_std": 0.033953461108079896,
+      "ungated_mean": 0.4780985681458062,
+      "gated_mean": 0.7260411035058233,
+      "fraction_of_oracle_gain": 0.8109959791181932,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "smoothgrad",
+      "architecture": "gcn"
+    },
+    {
+      "spearman": 0.6223817144935577,
+      "spearman_std": 0.013092162891588958,
+      "ungated_mean": 0.4824820869726493,
+      "gated_mean": 0.6397971650009537,
+      "fraction_of_oracle_gain": 0.6224153751169934,
+      "n_rows": 2383,
+      "n_features": 35,
+      "explainer": "smoothgrad",
+      "architecture": "gin"
+    }
+  ],
+  "baseline": {
+    "spearman": 0.8275213207327011,
+    "spearman_std": 0.010050616187893375,
+    "ungated_mean": 0.29925403326452493,
+    "gated_mean": 0.6515261384936352,
+    "fraction_of_oracle_gain": 0.8387162845744977,
+    "n_rows": 64322,
+    "n_features": 35
+  },
+  "ablation": [
+    {
+      "family": "molecule",
+      "n_features": 16,
+      "without": 0.8249720761562125,
+      "without_std": 0.010265139609362199,
+      "alone": 0.7194686894935731,
+      "alone_std": 0.0034677175083150636,
+      "delta": -0.0025492445764886407,
+      "members": [
+        "mol_n_atoms",
+        "mol_n_bonds",
+        "mol_mw",
+        "mol_logp",
+        "mol_tpsa",
+        "mol_n_rings",
+        "mol_aromatic_frac",
+        "mol_frac_csp3",
+        "mol_rotatable",
+        "mol_hbd",
+        "mol_hba",
+        "mol_heteroatom_frac",
+        "mol_bertz",
+        "mol_n_stereocentres",
+        "mol_mean_degree",
+        "mol_max_degree"
+      ]
+    },
+    {
+      "family": "model_confidence",
+      "n_features": 4,
+      "without": 0.7961322043677177,
+      "without_std": 0.01011841199902969,
+      "alone": 0.7742934156130662,
+      "alone_std": 0.007905744228632586,
+      "delta": -0.03138911636498343,
+      "members": [
+        "model_output",
+        "model_prob",
+        "model_margin",
+        "model_entropy"
+      ]
+    },
+    {
+      "family": "model_sensitivity",
+      "n_features": 1,
+      "without": 0.8257368745364845,
+      "without_std": 0.008163138835518134,
+      "alone": 0.720671086614221,
+      "alone_std": 0.010829487302266365,
+      "delta": -0.0017844461962166491,
+      "members": [
+        "model_grad_norm"
+      ]
+    },
+    {
+      "family": "model_uncertainty",
+      "n_features": 1,
+      "without": 0.8277051091563026,
+      "without_std": 0.00942148079219573,
+      "alone": 0.7011547594344641,
+      "alone_std": 0.004987881518389868,
+      "delta": 0.00018378842360144976,
+      "members": [
+        "model_mc_std"
+      ]
+    },
+    {
+      "family": "applicability_domain",
+      "n_features": 3,
+      "without": 0.8257254232176576,
+      "without_std": 0.008845327737931145,
+      "alone": 0.7040140631698701,
+      "alone_std": 0.008346220412491067,
+      "delta": -0.0017958975150434986,
+      "members": [
+        "model_knn_dist_1",
+        "model_knn_dist_10",
+        "model_embedding_norm"
+      ]
+    },
+    {
+      "family": "attribution_shape",
+      "n_features": 7,
+      "without": 0.8232267937400646,
+      "without_std": 0.008692628480042982,
+      "alone": 0.7480569460096641,
+      "alone_std": 0.009021055086247986,
+      "delta": -0.004294526992636549,
+      "members": [
+        "attr_entropy",
+        "attr_gini",
+        "attr_top1_share",
+        "attr_topk_share",
+        "attr_positive_frac",
+        "attr_sign_balance",
+        "attr_range_ratio"
+      ]
+    },
+    {
+      "family": "attribution_magnitude",
+      "n_features": 3,
+      "without": 0.8228415126990167,
+      "without_std": 0.009404418789624787,
+      "alone": 0.7537982004698754,
+      "alone_std": 0.011370734735826973,
+      "delta": -0.004679808033684396,
+      "members": [
+        "attr_std",
+        "attr_mean_abs",
+        "attr_max_abs"
+      ]
+    }
+  ]
+}

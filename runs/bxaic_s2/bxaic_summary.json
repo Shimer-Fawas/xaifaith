@@ -1,0 +1,53 @@
+{
+  "per_explainer": [
+    {
+      "explainer": "gnn_explainer",
+      "mean_faithfulness": 0.3080077881822112,
+      "mean_se_auroc": 0.7161734472809174,
+      "rho_faith_vs_plaus": 0.4971602590754375,
+      "n": 2024
+    },
+    {
+      "explainer": "grad_cam",
+      "mean_faithfulness": 0.6320617237726228,
+      "mean_se_auroc": 0.8639598243329819,
+      "rho_faith_vs_plaus": 0.2284588995613036,
+      "n": 2024
+    },
+    {
+      "explainer": "gradient_input",
+      "mean_faithfulness": 0.6443802107793097,
+      "mean_se_auroc": 0.8173565612935363,
+      "rho_faith_vs_plaus": 0.20395883203422013,
+      "n": 2024
+    },
+    {
+      "explainer": "integrated_gradients",
+      "mean_faithfulness": 0.9112251399036075,
+      "mean_se_auroc": 0.8317233264417329,
+      "rho_faith_vs_plaus": 0.1920131615520829,
+      "n": 2024
+    },
+    {
+      "explainer": "random",
+      "mean_faithfulness": -0.014374382525883134,
+      "mean_se_auroc": 0.5007296486036397,
+      "rho_faith_vs_plaus": 0.06020802089573526,
+      "n": 2024
+    },
+    {
+      "explainer": "saliency",
+      "mean_faithfulness": 0.5449438034435118,
+      "mean_se_auroc": 0.8552126949609791,
+      "rho_faith_vs_plaus": 0.34356640387709836,
+      "n": 2024
+    },
+    {
+      "explainer": "smoothgrad",
+      "mean_faithfulness": 0.7070861600969884,
+      "mean_se_auroc": 0.8225443975250936,
+      "rho_faith_vs_plaus": 0.11571136131635268,
+      "n": 2024
+    }
+  ]
+}

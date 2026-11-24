@@ -1,0 +1,23 @@
+{
+  "stage": "attribute",
+  "datasets": [
+    "bace"
+  ],
+  "architectures": [
+    "attentivefp"
+  ],
+  "explainers": null,
+  "out": "runs/hp_ref",
+  "data_root": "data",
+  "device": "cuda",
+  "epochs": 120,
+  "seed": 0,
+  "max_molecules": 600,
+  "random_orders": 8,
+  "curve_points": 20,
+  "greedy_max_atoms": 60,
+  "shard": 0,
+  "num_shards": 1,
+  "include_circular": false,
+  "overwrite": false
+}
